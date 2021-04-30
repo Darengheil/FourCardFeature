@@ -34,65 +34,62 @@ h2{
 
 .cards{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    position: relative;
-    padding: 20px;
 }
 
 .searchCard{
+    margin-top: 10em;
+    position: relative;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     border-top: 5px solid hsl(180, 62%, 55%);
     box-shadow: 0 0 10px hsl(234, 12%, 34%);
-    position: absolute;
     padding: 20px;
-    top: 460%;
-    left: 10%;
     background-color: white;
     height: 220px;
     width: 320px;
 }
 
 .homeCard{
+    margin: 0 2em;
+    position: relative;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     border-top: 5px solid hsl(180, 62%, 55%);
     box-shadow: 0 0 10px hsl(234, 12%, 34%);
-    position: absolute;
     padding: 20px;
-    left: 35%;
     background-color: white;
     height: 220px;
     width: 320px;
 }
 
 .karmaCard{
+    margin: 0 2em;
+    margin-top: 2em;
+    position: relative;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     border-top: 5px solid hsl(180, 62%, 55%);
     box-shadow: 0 0 10px hsl(234, 12%, 34%);
-    position: absolute;
     padding: 20px;
-    top: 820%;
-    left: 35%;
     background-color: white;
     height: 220px;
     width: 320px;
 }
 
 .calculatorCard{
+    margin-top: 10em;
+    position: relative;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     border-top: 5px solid hsl(180, 62%, 55%);
     box-shadow: 0 0 10px hsl(234, 12%, 34%);
-    position: absolute;
     padding: 20px;
-    top: 460%;
-    right: 17%;
     background-color: white;
     height: 220px;
     width: 320px;
@@ -106,8 +103,7 @@ h2{
 .mainimg{
     position: absolute;
     top: 65%;
-    left: 70%;
-    width: 20%;
+    right: 10%;
 }
 
 @media (max-width:900px){
